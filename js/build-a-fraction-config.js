@@ -30,6 +30,7 @@ require.config( {
     BRAND: '../../brand/' + phet.chipper.brand + '/js',
     BUILD_A_FRACTION: '.',
     DOT: '../../dot/js',
+    FRACTIONS_COMMON: '../../fractions-common/js',
     JOIST: '../../joist/js',
     KITE: '../../kite/js',
     PHETCOMMON: '../../phetcommon/js',

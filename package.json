@@ -11,6 +11,9 @@
   },
   "phet": {
     "requirejsNamespace": "BUILD_A_FRACTION",
+    "phetLibs": [
+      "fractions-common"
+    ],
     "runnable": true,
     "supportedBrands": [
       "phet",
