@@ -9,9 +9,11 @@ define( function( require ) {
   'use strict';
 
   // modules
+  var BuildAFractionScreen = require( 'BUILD_A_FRACTION/view/BuildAFractionScreen' );
+  var LabScreen = require( 'BUILD_A_FRACTION/view/LabScreen' );
+  var MixedNumbersScreen = require( 'BUILD_A_FRACTION/view/MixedNumbersScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
-  var BuildAFractionScreen = require( 'BUILD_A_FRACTION/build-a-fraction/BuildAFractionScreen' );
 
   // strings
   var buildAFractionTitleString = require( 'string!BUILD_A_FRACTION/build-a-fraction.title' );
@@ -29,7 +31,11 @@ define( function( require ) {
   };
 
   SimLauncher.launch( function() {
-    var sim = new Sim( buildAFractionTitleString, [ new BuildAFractionScreen() ], simOptions );
+    var sim = new Sim( buildAFractionTitleString, [
+      new BuildAFractionScreen(),
+      new MixedNumbersScreen(),
+      new LabScreen()
+    ], simOptions );
     sim.start();
   } );
 } );
