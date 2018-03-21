@@ -12,7 +12,8 @@
   "phet": {
     "requirejsNamespace": "BUILD_A_FRACTION",
     "phetLibs": [
-      "fractions-common"
+      "fractions-common",
+      "twixt"
     ],
     "runnable": true,
     "supportedBrands": [
