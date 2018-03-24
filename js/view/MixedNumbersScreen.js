@@ -12,9 +12,8 @@ define( function( require ) {
   var buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
   var BuildingGameModel = require( 'FRACTIONS_COMMON/game/model/BuildingGameModel' );
   var BuildingGameScreenView = require( 'FRACTIONS_COMMON/game/view/BuildingGameScreenView' );
-  var Color = require( 'SCENERY/util/Color' );
+  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
   var inherit = require( 'PHET_CORE/inherit' );
-  var Property = require( 'AXON/Property' );
   var Screen = require( 'JOIST/Screen' );
 
   // strings
@@ -27,7 +26,7 @@ define( function( require ) {
 
     var options = {
       name: screenMixedNumbersString,
-      backgroundColorProperty: new Property( Color.WHITE )
+      backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty
     };
 
     Screen.call( this,
