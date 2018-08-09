@@ -38,5 +38,4 @@ define( function( require ) {
     ], simOptions );
     sim.start();
   } );
-  
 } );
