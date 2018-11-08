@@ -10,8 +10,8 @@ define( function( require ) {
 
   // modules
   var buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
-  var BuildingLabModel = require( 'FRACTIONS_COMMON/building/model/BuildingLabModel' );
-  var BuildingLabScreenView = require( 'FRACTIONS_COMMON/building/view/BuildingLabScreenView' );
+  var BuildingLabModel = require( 'FRACTIONS_COMMON/lab/model/BuildingLabModel' );
+  var BuildingLabScreenView = require( 'FRACTIONS_COMMON/lab/view/BuildingLabScreenView' );
   var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
   var inherit = require( 'PHET_CORE/inherit' );
   var Screen = require( 'JOIST/Screen' );
