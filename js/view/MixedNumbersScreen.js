@@ -1,42 +1,36 @@
 // Copyright 2018, University of Colorado Boulder
 
 /**
- * TODO: doc
+ * The mixed-numbers game screen for Build a Fraction
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
-  var BuildingGameModel = require( 'FRACTIONS_COMMON/game/model/BuildingGameModel' );
-  var BuildingGameScreenView = require( 'FRACTIONS_COMMON/game/view/BuildingGameScreenView' );
-  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  var inherit = require( 'PHET_CORE/inherit' );
-  var Screen = require( 'JOIST/Screen' );
+  const buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
+  const BuildingGameModel = require( 'FRACTIONS_COMMON/game/model/BuildingGameModel' );
+  const BuildingGameScreenView = require( 'FRACTIONS_COMMON/game/view/BuildingGameScreenView' );
+  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
+  const Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenMixedNumbersString = require( 'string!BUILD_A_FRACTION/screen.mixedNumbers' );
+  const screenMixedNumbersString = require( 'string!BUILD_A_FRACTION/screen.mixedNumbers' );
 
-  /**
-   * @constructor
-   */
-  function MixedNumbersScreen() {
-
-    var options = {
-      name: screenMixedNumbersString,
-      backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty
-    };
-
-    Screen.call( this,
-      function() { return new BuildingGameModel( true ); },
-      function( model ) { return new BuildingGameScreenView( model ); },
-      options
-    );
+  class MixedNumbersScreen extends Screen {
+    constructor() {
+      super(
+        () => new BuildingGameModel( true ),
+        model => new BuildingGameScreenView( model ),
+        {
+          name: screenMixedNumbersString,
+          backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty,
+          homeScreenIcon: BuildingGameScreenView.createMixedScreenIcon()
+        }
+      );
+    }
   }
 
-  buildAFraction.register( 'MixedNumbersScreen', MixedNumbersScreen );
-
-  return inherit( Screen, MixedNumbersScreen );
+  return buildAFraction.register( 'MixedNumbersScreen', MixedNumbersScreen );
 } );

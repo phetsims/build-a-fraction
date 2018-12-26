@@ -1,42 +1,36 @@
 // Copyright 2018, University of Colorado Boulder
 
 /**
- * TODO: doc
+ * The non-mixed-numbers game screen for Build a Fraction
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
-  var BuildingGameModel = require( 'FRACTIONS_COMMON/game/model/BuildingGameModel' );
-  var BuildingGameScreenView = require( 'FRACTIONS_COMMON/game/view/BuildingGameScreenView' );
-  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  var inherit = require( 'PHET_CORE/inherit' );
-  var Screen = require( 'JOIST/Screen' );
+  const buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
+  const BuildingGameModel = require( 'FRACTIONS_COMMON/game/model/BuildingGameModel' );
+  const BuildingGameScreenView = require( 'FRACTIONS_COMMON/game/view/BuildingGameScreenView' );
+  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
+  const Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenBuildAFractionString = require( 'string!BUILD_A_FRACTION/screen.buildAFraction' );
+  const screenBuildAFractionString = require( 'string!BUILD_A_FRACTION/screen.buildAFraction' );
 
-  /**
-   * @constructor
-   */
-  function BuildAFractionScreen() {
-
-    var options = {
-      name: screenBuildAFractionString,
-      backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty
-    };
-
-    Screen.call( this,
-      function() { return new BuildingGameModel( false ); },
-      function( model ) { return new BuildingGameScreenView( model ); },
-      options
-    );
+  class BuildAFractionScreen extends Screen {
+    constructor() {
+      super(
+        () => new BuildingGameModel( false ),
+        model => new BuildingGameScreenView( model ),
+        {
+          name: screenBuildAFractionString,
+          backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty,
+          homeScreenIcon: BuildingGameScreenView.createUnmixedScreenIcon()
+        }
+      );
+    }
   }
-
-  buildAFraction.register( 'BuildAFractionScreen', BuildAFractionScreen );
-
-  return inherit( Screen, BuildAFractionScreen );
+  
+  return buildAFraction.register( 'BuildAFractionScreen', BuildAFractionScreen );
 } );

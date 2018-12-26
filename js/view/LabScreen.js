@@ -1,42 +1,35 @@
 // Copyright 2018, University of Colorado Boulder
 
 /**
- * TODO: doc
+ * The "Lab" screen for Build a Fraction
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
-  var BuildingLabModel = require( 'FRACTIONS_COMMON/lab/model/BuildingLabModel' );
-  var BuildingLabScreenView = require( 'FRACTIONS_COMMON/lab/view/BuildingLabScreenView' );
-  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  var inherit = require( 'PHET_CORE/inherit' );
-  var Screen = require( 'JOIST/Screen' );
+  const buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
+  const BuildingLabModel = require( 'FRACTIONS_COMMON/lab/model/BuildingLabModel' );
+  const BuildingLabScreenView = require( 'FRACTIONS_COMMON/lab/view/BuildingLabScreenView' );
+  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
+  const Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenLabString = require( 'string!BUILD_A_FRACTION/screen.lab' );
+  const screenLabString = require( 'string!BUILD_A_FRACTION/screen.lab' );
 
-  /**
-   * @constructor
-   */
-  function LabScreen() {
-
-    var options = {
-      name: screenLabString,
-      backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty
-    };
-
-    Screen.call( this,
-      function() { return new BuildingLabModel( true ); },
-      function( model ) { return new BuildingLabScreenView( model ); },
-      options
-    );
+  class LabScreen extends Screen {
+    constructor() {
+      super(
+        () => new BuildingLabModel( true ),
+        model => new BuildingLabScreenView( model ),
+        {
+          name: screenLabString,
+          backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty
+        }
+      );
+    }
   }
 
-  buildAFraction.register( 'LabScreen', LabScreen );
-
-  return inherit( Screen, LabScreen );
+  return buildAFraction.register( 'LabScreen', LabScreen );
 } );

@@ -5,20 +5,20 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var BuildAFractionScreen = require( 'BUILD_A_FRACTION/view/BuildAFractionScreen' );
-  var LabScreen = require( 'BUILD_A_FRACTION/view/LabScreen' );
-  var MixedNumbersScreen = require( 'BUILD_A_FRACTION/view/MixedNumbersScreen' );
-  var Sim = require( 'JOIST/Sim' );
-  var SimLauncher = require( 'JOIST/SimLauncher' );
+  const BuildAFractionScreen = require( 'BUILD_A_FRACTION/view/BuildAFractionScreen' );
+  const LabScreen = require( 'BUILD_A_FRACTION/view/LabScreen' );
+  const MixedNumbersScreen = require( 'BUILD_A_FRACTION/view/MixedNumbersScreen' );
+  const Sim = require( 'JOIST/Sim' );
+  const SimLauncher = require( 'JOIST/SimLauncher' );
 
   // strings
-  var buildAFractionTitleString = require( 'string!BUILD_A_FRACTION/build-a-fraction.title' );
+  const buildAFractionTitleString = require( 'string!BUILD_A_FRACTION/build-a-fraction.title' );
 
-  var simOptions = {
+  const simOptions = {
     credits: {
       //TODO fill in proper credits, all of these fields are optional, see joist.AboutDialog
       leadDesign: '',
@@ -31,7 +31,7 @@ define( function( require ) {
   };
 
   SimLauncher.launch( function() {
-    var sim = new Sim( buildAFractionTitleString, [
+    const sim = new Sim( buildAFractionTitleString, [
       new BuildAFractionScreen(),
       new MixedNumbersScreen(),
       new LabScreen()
