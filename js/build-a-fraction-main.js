@@ -30,7 +30,7 @@ define( require => {
     }
   };
 
-  SimLauncher.launch( function() {
+  SimLauncher.launch( () => {
     const sim = new Sim( buildAFractionTitleString, [
       new BuildAFractionScreen(),
       new MixedNumbersScreen(),

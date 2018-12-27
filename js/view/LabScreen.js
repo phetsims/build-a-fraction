@@ -25,7 +25,8 @@ define( require => {
         model => new BuildingLabScreenView( model ),
         {
           name: screenLabString,
-          backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty
+          backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty,
+          homeScreenIcon: BuildingLabScreenView.createMixedScreenIcon()
         }
       );
     }
