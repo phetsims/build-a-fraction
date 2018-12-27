@@ -1,11 +1,11 @@
 {
-  "comment": "# build-a-fraction 1.0.0-dev.14 Fri Dec 21 2018 16:52:16 GMT-0700 (MST)",
+  "comment": "# build-a-fraction 1.0.0-dev.15 Wed Dec 26 2018 20:01:46 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "69088d35b9e1971aee675d1aec7f413f4d0bef19",
     "branch": "master"
   },
   "axon": {
-    "sha": "8e1568f6a852ef72f4d3f86e3465f66e4167ed5e",
+    "sha": "4f910d0d904390ca773fffdbd8e7470c56f6b823",
     "branch": "master"
   },
   "brand": {
@@ -13,7 +13,7 @@
     "branch": "master"
   },
   "build-a-fraction": {
-    "sha": "bab6ee4ada1740f0e6976ed9c10a251d55082d63",
+    "sha": "574efe05d3c8e13b4422288e51d8324cba0879a8",
     "branch": "master"
   },
   "chipper": {
@@ -25,7 +25,7 @@
     "branch": "master"
   },
   "fractions-common": {
-    "sha": "e4801ebe9e5c683197629cb53b800b4662378618",
+    "sha": "4258d1bd07448bd072a773197ca584d25ddd23bd",
     "branch": "master"
   },
   "joist": {
@@ -41,23 +41,23 @@
     "branch": "master"
   },
   "phet-io": {
-    "sha": "4558068df9806c2986752eae05515e1a8c3345db",
+    "sha": "5b5ff80c5641c19d8e02c095c2e6f9d5ca9df20f",
     "branch": "master"
   },
   "phet-io-wrapper-classroom-activity": {
-    "sha": "a066df3371699a038941caa3f8961f77455cfea4",
+    "sha": "3805b6df21fc0d679a3dc50d7309da1e41b1b0e5",
     "branch": "master"
   },
   "phet-io-wrapper-hookes-law-energy": {
-    "sha": "b19f66891bb47d7c284e10d79e09f828760c7d1c",
+    "sha": "edb231a365b0b81c976f6e502874a234a0284915",
     "branch": "master"
   },
   "phet-io-wrapper-lab-book": {
-    "sha": "6f3a9e13562b423fc1576446d21e26ba03c66d92",
+    "sha": "fb5c98c155259e2bdd37eb64e30081017a6e1d09",
     "branch": "master"
   },
   "phet-io-wrappers": {
-    "sha": "e807251c60277d0e72280f2ddef221abc8ff6da2",
+    "sha": "bf754459aaf35906ba1b42f41d2541597abc5303",
     "branch": "master"
   },
   "phetcommon": {
@@ -69,11 +69,11 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "c79745a6764156959d5aa2b053dd7b0b25504315",
+    "sha": "0eaff198894fa9470c47d86dca082aa97f0b70c9",
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "2f23124f813efd8af10b59db1b5632502e17eab0",
+    "sha": "2eead2b568132832a638d5d63f6d10ac2393785c",
     "branch": "master"
   },
   "sherpa": {
@@ -89,7 +89,7 @@
     "branch": "master"
   },
   "tandem": {
-    "sha": "ac464815fc5a9667741c70276d10356c13b77f26",
+    "sha": "a76225d7f34c280c8c8125b40b65ed7f59dd299e",
     "branch": "master"
   },
   "twixt": {
