@@ -23,7 +23,7 @@ define( require => {
       leadDesign: 'Ariel Paul',
       softwareDevelopment: 'Jonathan Olson, Sam Reid',
       team: 'Mike Dubson, Karina K. R. Hensberry, Trish Loeblein, Amanda McGarry, Kathy Perkins',
-      qualityAssurance: '',
+      qualityAssurance: 'Steele Dalton, Megan Lai, Liam Mulhall, Laura Rea, Jacob Romero, Katie Woessner, and Kelly Wurtz',
       graphicArts: '',
       thanks: ''
     }
