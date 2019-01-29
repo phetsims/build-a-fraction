@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.0 Mon Jan 28 2019 20:56:28 GMT-0700 (Mountain Standard Time)",
+  "comment": "# build-a-fraction 1.0.1-rc.1 Tue Jan 29 2019 11:12:41 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "5b146952d247b7f3cfda5d0fec261438448b8604",
+    "sha": "ebec750c3467e120b15666376e52905367c33267",
     "branch": "1.0"
   },
   "chipper": {
