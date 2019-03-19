@@ -103,5 +103,9 @@
   "vibe": {
     "sha": "a3174d83e533546e4407e3344a435a1ec7e6f275",
     "branch": "HEAD"
+  },
+  "phetmarks": {
+    "branch": "master",
+    "sha": "def1af028eb502354773e06c22c9e4c5f792f7be"
   }
 }
