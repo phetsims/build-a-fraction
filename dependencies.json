@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.3 Wed Apr 24 2019 14:38:03 GMT-0800 (Alaskan Daylight Time)",
+  "comment": "# build-a-fraction 1.0.3 Fri May 24 2019 14:26:58 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,12 +13,12 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "bf46fd1f43b399e72bf83f4f3bea31e36801e83c",
+    "sha": "0fb2de21df5d4ef939aa4593b286737c11789198",
     "branch": "1.0"
   },
   "chipper": {
-    "sha": "40ee1d9eef1262de74a8489898048d4d114f9e8b",
-    "branch": "HEAD"
+    "sha": "3d77c43d992456c111ddd865da294a18f9a5442c",
+    "branch": "build-a-fraction-1.0"
   },
   "dot": {
     "sha": "0f80ddafb9064f8ef20cfc0129492c280f2b6b52",
@@ -42,18 +42,6 @@
   },
   "phet-io": {
     "sha": "9b6c6ffb646d99caf18b4f7168f0d093ef80f9c4",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-classroom-activity": {
-    "sha": "64aff78db6605aa5317724d50fdb28bd9cf495e2",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-hookes-law-energy": {
-    "sha": "edb231a365b0b81c976f6e502874a234a0284915",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-lab-book": {
-    "sha": "fb5c98c155259e2bdd37eb64e30081017a6e1d09",
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
