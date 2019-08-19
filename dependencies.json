@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.6 Mon Aug 05 2019 14:48:31 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# build-a-fraction 1.0.6 Mon Aug 19 2019 12:51:40 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "9e1dd8d70f91a51a4c38e6e8b78e328666364540",
+    "sha": "e5b2ba681c265aeef84c17b85ace5c2657924f34",
     "branch": "1.0"
   },
   "chipper": {
@@ -29,8 +29,8 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "0996602ec9af42d5b75c87b1f87085c148889818",
-    "branch": "HEAD"
+    "sha": "1a0994137687804aca7d34187c4b868eda4225d9",
+    "branch": "build-a-fraction-1.0"
   },
   "kite": {
     "sha": "663e0e960556fb4b0a6ae5e92b6ec41a00753c0c",
@@ -61,12 +61,12 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "ed86a2f54f5dc38b9650d4e581dd50b96d777f67",
-    "branch": "HEAD"
+    "sha": "394d3c549025ee80a947e489717f7da10c5b05c8",
+    "branch": "build-a-fraction-1.0"
   },
   "scenery-phet": {
-    "sha": "df5f5ec0112932aaacbce66232f03571c3c9cd84",
-    "branch": "HEAD"
+    "sha": "645a353768e2db2a76dc5f05eb083b0997c668c6",
+    "branch": "build-a-fraction-1.0"
   },
   "sherpa": {
     "sha": "137e3b9c01057a7a775f1add620b98facb007aaa",
