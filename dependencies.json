@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.9 Thu Oct 03 2019 10:25:06 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# build-a-fraction 1.0.9 Mon Oct 14 2019 12:55:03 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "a8512551dc0b403f66b53cee7769263dea3405ad",
+    "sha": "512e1972618c4f8cd67d1eb74454e56175fecaf7",
     "branch": "1.0"
   },
   "chipper": {
@@ -37,8 +37,8 @@
     "branch": "HEAD"
   },
   "phet-core": {
-    "sha": "b477cbae4844815a92e8b28ba51fd72c3ad0f0c4",
-    "branch": "HEAD"
+    "sha": "3a5d65c7ea04401481689dffee5ce36a868702eb",
+    "branch": "build-a-fraction-1.0"
   },
   "phet-io": {
     "sha": "9b6c6ffb646d99caf18b4f7168f0d093ef80f9c4",
@@ -93,7 +93,7 @@
     "branch": "HEAD"
   },
   "vibe": {
-    "sha": "a3174d83e533546e4407e3344a435a1ec7e6f275",
-    "branch": "HEAD"
+    "sha": "0424653d02080ebaeb819d8adeea8f65d1c9475d",
+    "branch": "build-a-fraction-1.0"
   }
 }
