@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.10-rc.2 Mon Oct 21 2019 10:24:40 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# build-a-fraction 1.0.10-rc.2 Wed Oct 23 2019 14:32:21 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "3bf9092768307968faf3ca2431feb424aa34378e",
+    "sha": "3c3b729bb019a04f164ad50dae028df868376a89",
     "branch": "1.0"
   },
   "chipper": {
@@ -29,8 +29,8 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "447079ce806c198a22b3ca7f76b4c38e7277ac8e",
-    "branch": "HEAD"
+    "sha": "af591f87d7e6a5cbac569f488c435c77d983617a",
+    "branch": "build-a-fraction-1.0"
   },
   "kite": {
     "sha": "663e0e960556fb4b0a6ae5e92b6ec41a00753c0c",
