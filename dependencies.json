@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.10 Mon Oct 28 2019 13:28:36 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# build-a-fraction 1.0.10 Wed Dec 18 2019 11:27:06 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "556afe3a5e7174f3a5b41f826f46c20303e4936a",
+    "sha": "2e72f4a8815063a3ad3e308ce139ea5ef0acbd6d",
     "branch": "1.0"
   },
   "chipper": {
@@ -25,8 +25,8 @@
     "branch": "HEAD"
   },
   "fractions-common": {
-    "sha": "9114bd70b88a3c4c7c93cf75cf3d39a3a91c81aa",
-    "branch": "HEAD"
+    "sha": "7bdda154aabcda5e48743e563887ec7ab67ba4ee",
+    "branch": "build-a-fraction-1.0"
   },
   "joist": {
     "sha": "af591f87d7e6a5cbac569f488c435c77d983617a",
@@ -89,8 +89,8 @@
     "branch": "HEAD"
   },
   "vegas": {
-    "sha": "9c74668acc238cb546d95d3761f34626f80de9c5",
-    "branch": "HEAD"
+    "sha": "a57233be51bb555a38390cc6fa21614e98ee8e01",
+    "branch": "build-a-fraction-1.0"
   },
   "vibe": {
     "sha": "0424653d02080ebaeb819d8adeea8f65d1c9475d",
