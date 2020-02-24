@@ -1,5 +1,5 @@
 {
-  "comment": "# build-a-fraction 1.0.11 Mon Feb 24 2020 12:33:52 GMT-0700 (Mountain Standard Time)",
+  "comment": "# build-a-fraction 1.0.11 Mon Feb 24 2020 12:36:14 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "51cba3765de90b1bcf430aea44f173884cc83018",
+    "sha": "862f9df7e919de1125bc29a1ebc781dccb8a33d3",
     "branch": "1.0"
   },
   "chipper": {
@@ -25,8 +25,8 @@
     "branch": "HEAD"
   },
   "fractions-common": {
-    "sha": "7bdda154aabcda5e48743e563887ec7ab67ba4ee",
-    "branch": "HEAD"
+    "sha": "573161ccb2455dc948486d1d54f5d90b47f7183c",
+    "branch": "build-a-fraction-1.0"
   },
   "joist": {
     "sha": "af591f87d7e6a5cbac569f488c435c77d983617a",
@@ -90,7 +90,7 @@
   },
   "vegas": {
     "sha": "7768ef8711e95a94a4b6f0daa584232244fbe4f4",
-    "branch": "build-a-fraction-1.0"
+    "branch": "HEAD"
   },
   "vibe": {
     "sha": "0424653d02080ebaeb819d8adeea8f65d1c9475d",
