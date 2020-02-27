@@ -5,36 +5,32 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const BuildAFractionScreen = require( 'BUILD_A_FRACTION/view/BuildAFractionScreen' );
-  const LabScreen = require( 'BUILD_A_FRACTION/view/LabScreen' );
-  const MixedNumbersScreen = require( 'BUILD_A_FRACTION/view/MixedNumbersScreen' );
-  const Sim = require( 'JOIST/Sim' );
-  const SimLauncher = require( 'JOIST/SimLauncher' );
+import Sim from '../../joist/js/Sim.js';
+import SimLauncher from '../../joist/js/SimLauncher.js';
+import buildAFractionStrings from './build-a-fraction-strings.js';
+import BuildAFractionScreen from './view/BuildAFractionScreen.js';
+import LabScreen from './view/LabScreen.js';
+import MixedNumbersScreen from './view/MixedNumbersScreen.js';
 
-  // strings
-  const buildAFractionTitleString = require( 'string!BUILD_A_FRACTION/build-a-fraction.title' );
+const buildAFractionTitleString = buildAFractionStrings[ 'build-a-fraction' ].title;
 
-  const simOptions = {
-    credits: {
-      leadDesign: 'Ariel Paul',
-      softwareDevelopment: 'Jonathan Olson, Sam Reid',
-      team: 'Mike Dubson, Karina K. R. Hensberry, Trish Loeblein, Amanda McGarry, Kathy Perkins',
-      qualityAssurance: 'Steele Dalton, Megan Lai, Liam Mulhall, Laura Rea, Jacob Romero, Katie Woessner, and Kelly Wurtz',
-      graphicArts: '',
-      thanks: ''
-    }
-  };
+const simOptions = {
+  credits: {
+    leadDesign: 'Ariel Paul',
+    softwareDevelopment: 'Jonathan Olson, Sam Reid',
+    team: 'Mike Dubson, Karina K. R. Hensberry, Trish Loeblein, Amanda McGarry, Kathy Perkins',
+    qualityAssurance: 'Steele Dalton, Megan Lai, Liam Mulhall, Laura Rea, Jacob Romero, Katie Woessner, and Kelly Wurtz',
+    graphicArts: '',
+    thanks: ''
+  }
+};
 
-  SimLauncher.launch( () => {
-    const sim = new Sim( buildAFractionTitleString, [
-      new BuildAFractionScreen(),
-      new MixedNumbersScreen(),
-      new LabScreen()
-    ], simOptions );
-    sim.start();
-  } );
+SimLauncher.launch( () => {
+  const sim = new Sim( buildAFractionTitleString, [
+    new BuildAFractionScreen(),
+    new MixedNumbersScreen(),
+    new LabScreen()
+  ], simOptions );
+  sim.start();
 } );

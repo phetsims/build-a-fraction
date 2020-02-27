@@ -5,32 +5,29 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const buildAFraction = require( 'BUILD_A_FRACTION/buildAFraction' );
-  const BuildingLabModel = require( 'FRACTIONS_COMMON/lab/model/BuildingLabModel' );
-  const BuildingLabScreenView = require( 'FRACTIONS_COMMON/lab/view/BuildingLabScreenView' );
-  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  const Screen = require( 'JOIST/Screen' );
+import FractionsCommonColorProfile from '../../../fractions-common/js/common/view/FractionsCommonColorProfile.js';
+import BuildingLabModel from '../../../fractions-common/js/lab/model/BuildingLabModel.js';
+import BuildingLabScreenView from '../../../fractions-common/js/lab/view/BuildingLabScreenView.js';
+import Screen from '../../../joist/js/Screen.js';
+import buildAFractionStrings from '../build-a-fraction-strings.js';
+import buildAFraction from '../buildAFraction.js';
 
-  // strings
-  const screenLabString = require( 'string!BUILD_A_FRACTION/screen.lab' );
+const screenLabString = buildAFractionStrings.screen.lab;
 
-  class LabScreen extends Screen {
-    constructor() {
-      super(
-        () => new BuildingLabModel( true ),
-        model => new BuildingLabScreenView( model ),
-        {
-          name: screenLabString,
-          backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty,
-          homeScreenIcon: BuildingLabScreenView.createMixedScreenIcon()
-        }
-      );
-    }
+class LabScreen extends Screen {
+  constructor() {
+    super(
+      () => new BuildingLabModel( true ),
+      model => new BuildingLabScreenView( model ),
+      {
+        name: screenLabString,
+        backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty,
+        homeScreenIcon: BuildingLabScreenView.createMixedScreenIcon()
+      }
+    );
   }
+}
 
-  return buildAFraction.register( 'LabScreen', LabScreen );
-} );
+buildAFraction.register( 'LabScreen', LabScreen );
+export default LabScreen;
