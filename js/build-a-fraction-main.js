@@ -8,7 +8,7 @@
 
 import Sim from '../../joist/js/Sim.js';
 import SimLauncher from '../../joist/js/SimLauncher.js';
-import buildAFractionStrings from './build-a-fraction-strings.js';
+import buildAFractionStrings from './buildAFractionStrings.js';
 import BuildAFractionScreen from './view/BuildAFractionScreen.js';
 import LabScreen from './view/LabScreen.js';
 import MixedNumbersScreen from './view/MixedNumbersScreen.js';

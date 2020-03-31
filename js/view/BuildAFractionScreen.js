@@ -10,7 +10,7 @@ import FractionsCommonColorProfile from '../../../fractions-common/js/common/vie
 import BuildingGameModel from '../../../fractions-common/js/game/model/BuildingGameModel.js';
 import BuildingGameScreenView from '../../../fractions-common/js/game/view/BuildingGameScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import buildAFractionStrings from '../build-a-fraction-strings.js';
+import buildAFractionStrings from '../buildAFractionStrings.js';
 import buildAFraction from '../buildAFraction.js';
 
 const screenBuildAFractionString = buildAFractionStrings.screen.buildAFraction;
