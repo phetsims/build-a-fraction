@@ -7,7 +7,7 @@
  */
 
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import buildAFractionStrings from './buildAFractionStrings.js';
 import BuildAFractionScreen from './view/BuildAFractionScreen.js';
 import LabScreen from './view/LabScreen.js';
@@ -26,7 +26,7 @@ const simOptions = {
   }
 };
 
-SimLauncher.launch( () => {
+simLauncher.launch( () => {
   const sim = new Sim( buildAFractionTitleString, [
     new BuildAFractionScreen(),
     new MixedNumbersScreen(),
