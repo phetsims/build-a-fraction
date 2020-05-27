@@ -10,8 +10,9 @@ import FractionsCommonColorProfile from '../../../fractions-common/js/common/vie
 import BuildingGameModel from '../../../fractions-common/js/game/model/BuildingGameModel.js';
 import BuildingGameScreenView from '../../../fractions-common/js/game/view/BuildingGameScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import buildAFractionStrings from '../buildAFractionStrings.js';
+import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import buildAFraction from '../buildAFraction.js';
+import buildAFractionStrings from '../buildAFractionStrings.js';
 
 const screenMixedNumbersString = buildAFractionStrings.screen.mixedNumbers;
 
@@ -23,7 +24,10 @@ class MixedNumbersScreen extends Screen {
       {
         name: screenMixedNumbersString,
         backgroundColorProperty: FractionsCommonColorProfile.otherScreenBackgroundProperty,
-        homeScreenIcon: BuildingGameScreenView.createMixedScreenIcon()
+        homeScreenIcon: new ScreenIcon( BuildingGameScreenView.createMixedScreenIcon(), {
+          maxIconWidthProportion: 1,
+          maxIconHeightProportion: 1
+        } )
       }
     );
   }
