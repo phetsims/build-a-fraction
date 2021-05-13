@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "38b2d769f9f51612c8ac9513dc57e08764731a9d",
+    "sha": "8348c10112f9f27f13caf6dd047a071f8a66e7da",
     "branch": "1.0"
   },
   "chipper": {
@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "d76831a366ce17c697b98c20c90228fcfa6569a7",
+    "sha": "976f12502be83173fcff02f7c17cf5628b908eb2",
     "branch": "build-a-fraction-1.0"
   },
   "scenery-phet": {
