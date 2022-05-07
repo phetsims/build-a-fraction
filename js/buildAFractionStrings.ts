@@ -9,12 +9,12 @@ import buildAFraction from './buildAFraction.js';
 
 type StringsType = {
   'build-a-fraction': {
-    'title': string
-  },
+    'title': string;
+  };
   'screen': {
-    'buildAFraction': string,
-    'mixedNumbers': string,
-    'lab': string
+    'buildAFraction': string;
+    'mixedNumbers': string;
+    'lab': string;
   }
 };
 
