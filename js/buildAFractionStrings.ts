@@ -11,15 +11,15 @@ import buildAFraction from './buildAFraction.js';
 type StringsType = {
   'build-a-fraction': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'buildAFraction': string;
-    'buildAFractionProperty': TReadOnlyProperty<string>;
+    'buildAFractionStringProperty': TReadOnlyProperty<string>;
     'mixedNumbers': string;
-    'mixedNumbersProperty': TReadOnlyProperty<string>;
+    'mixedNumbersStringProperty': TReadOnlyProperty<string>;
     'lab': string;
-    'labProperty': TReadOnlyProperty<string>;
+    'labStringProperty': TReadOnlyProperty<string>;
   }
 };
 
