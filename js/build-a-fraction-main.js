@@ -13,7 +13,7 @@ import BuildAFractionScreen from './view/BuildAFractionScreen.js';
 import LabScreen from './view/LabScreen.js';
 import MixedNumbersScreen from './view/MixedNumbersScreen.js';
 
-const buildAFractionTitleString = buildAFractionStrings[ 'build-a-fraction' ].title;
+const buildAFractionTitleStringProperty = buildAFractionStrings[ 'build-a-fraction' ].titleStringProperty;
 
 const simOptions = {
   credits: {
@@ -27,7 +27,7 @@ const simOptions = {
 };
 
 simLauncher.launch( () => {
-  const sim = new Sim( buildAFractionTitleString, [
+  const sim = new Sim( buildAFractionTitleStringProperty, [
     new BuildAFractionScreen(),
     new MixedNumbersScreen(),
     new LabScreen()
