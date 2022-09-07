@@ -12,9 +12,9 @@ import BuildingLabScreenView from '../../../fractions-common/js/lab/view/Buildin
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import buildAFraction from '../buildAFraction.js';
-import buildAFractionStrings from '../buildAFractionStrings.js';
+import BuildAFractionStrings from '../BuildAFractionStrings.js';
 
-const screenLabString = buildAFractionStrings.screen.lab;
+const screenLabString = BuildAFractionStrings.screen.lab;
 
 class LabScreen extends Screen {
   constructor() {

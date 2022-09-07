@@ -23,8 +23,8 @@ type StringsType = {
   }
 };
 
-const buildAFractionStrings = getStringModule( 'BUILD_A_FRACTION' ) as StringsType;
+const BuildAFractionStrings = getStringModule( 'BUILD_A_FRACTION' ) as StringsType;
 
-buildAFraction.register( 'buildAFractionStrings', buildAFractionStrings );
+buildAFraction.register( 'BuildAFractionStrings', BuildAFractionStrings );
 
-export default buildAFractionStrings;
+export default BuildAFractionStrings;

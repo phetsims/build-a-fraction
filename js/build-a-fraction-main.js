@@ -8,12 +8,12 @@
 
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
-import buildAFractionStrings from './buildAFractionStrings.js';
+import BuildAFractionStrings from './BuildAFractionStrings.js';
 import BuildAFractionScreen from './view/BuildAFractionScreen.js';
 import LabScreen from './view/LabScreen.js';
 import MixedNumbersScreen from './view/MixedNumbersScreen.js';
 
-const buildAFractionTitleStringProperty = buildAFractionStrings[ 'build-a-fraction' ].titleStringProperty;
+const buildAFractionTitleStringProperty = BuildAFractionStrings[ 'build-a-fraction' ].titleStringProperty;
 
 const simOptions = {
   credits: {

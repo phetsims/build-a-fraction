@@ -12,9 +12,9 @@ import BuildingGameScreenView from '../../../fractions-common/js/game/view/Build
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import buildAFraction from '../buildAFraction.js';
-import buildAFractionStrings from '../buildAFractionStrings.js';
+import BuildAFractionStrings from '../BuildAFractionStrings.js';
 
-const screenMixedNumbersString = buildAFractionStrings.screen.mixedNumbers;
+const screenMixedNumbersString = BuildAFractionStrings.screen.mixedNumbers;
 
 class MixedNumbersScreen extends Screen {
   constructor() {
