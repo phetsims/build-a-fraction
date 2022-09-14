@@ -14,15 +14,13 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import buildAFraction from '../buildAFraction.js';
 import BuildAFractionStrings from '../BuildAFractionStrings.js';
 
-const screenBuildAFractionString = BuildAFractionStrings.screen.buildAFraction;
-
 class BuildAFractionScreen extends Screen {
   constructor() {
     super(
       () => new BuildingGameModel( false ),
       model => new BuildingGameScreenView( model ),
       {
-        name: screenBuildAFractionString,
+        name: BuildAFractionStrings.screen.buildAFractionStringProperty,
         backgroundColorProperty: FractionsCommonColors.otherScreenBackgroundProperty,
         homeScreenIcon: new ScreenIcon( BuildingGameScreenView.createUnmixedScreenIcon(), {
           maxIconWidthProportion: 1,
