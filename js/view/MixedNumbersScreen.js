@@ -20,7 +20,7 @@ class MixedNumbersScreen extends Screen {
       () => new BuildingGameModel( true ),
       model => new BuildingGameScreenView( model ),
       {
-        name: BuildAFractionStrings.screen.labStringProperty,
+        name: BuildAFractionStrings.screen.mixedNumbersStringProperty,
         backgroundColorProperty: FractionsCommonColors.otherScreenBackgroundProperty,
         homeScreenIcon: new ScreenIcon( BuildingGameScreenView.createMixedScreenIcon(), {
           maxIconWidthProportion: 1,
