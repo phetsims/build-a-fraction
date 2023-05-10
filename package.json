@@ -23,7 +23,12 @@
       "phet",
       "adapted-from-phet"
     ],
-    "simulation": true
+    "simulation": true,
+    "screenNameKeys": [
+      "BUILD_A_FRACTION/screen.buildAFraction",
+      "BUILD_A_FRACTION/screen.mixedNumbers",
+      "BUILD_A_FRACTION/screen.lab"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/.eslintrc.js"
