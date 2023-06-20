@@ -5,21 +5,21 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import LinkableProperty from '../../axon/js/LinkableProperty.js';
+import type LocalizedStringProperty from '../../chipper/js/LocalizedStringProperty.js';
 import buildAFraction from './buildAFraction.js';
 
 type StringsType = {
   'build-a-fraction': {
     'title': string;
-    'titleStringProperty': LinkableProperty<string>;
+    'titleStringProperty': LocalizedStringProperty;
   };
   'screen': {
     'buildAFraction': string;
-    'buildAFractionStringProperty': LinkableProperty<string>;
+    'buildAFractionStringProperty': LocalizedStringProperty;
     'mixedNumbers': string;
-    'mixedNumbersStringProperty': LinkableProperty<string>;
+    'mixedNumbersStringProperty': LocalizedStringProperty;
     'lab': string;
-    'labStringProperty': LinkableProperty<string>;
+    'labStringProperty': LocalizedStringProperty;
   }
 };
 
