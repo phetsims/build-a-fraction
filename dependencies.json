@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "cdfcbe98d0bfd3f1085f9b4db7bdc9da0b8134e9",
+    "sha": "b544292efc617768dcf05b8ec248b5611f212252",
     "branch": "1.0"
   },
   "chipper": {
@@ -49,7 +49,7 @@
     "branch": "HEAD"
   },
   "phetcommon": {
-    "sha": "b16e05aac0b8902c58342f7ce0cbe68d8d40272c",
+    "sha": "af8253eaf5c167b09a69f70ef10e045758459265",
     "branch": "HEAD"
   },
   "phetmarks": {
