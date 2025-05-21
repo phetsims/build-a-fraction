@@ -13,11 +13,11 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "d97c2bb3f6b2ebba8d174adb34ea0765e6db8bcf",
+    "sha": "fbd8550bf4d11bf9b16a89204dd94438cec54fdf",
     "branch": "1.0"
   },
   "chipper": {
-    "sha": "8832e87487e8a8d958fad2b23dec0897da9013ad",
+    "sha": "8fe4f469295cdcb855b333eb7d7d6cb171e7e3bb",
     "branch": "HEAD"
   },
   "dot": {
