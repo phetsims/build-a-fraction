@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "build-a-fraction": {
-    "sha": "3e94e8efecb954d9653a47ac096b391927ac8e4c",
+    "sha": "abfb623f7d802de74f137bee7dafcf5078c73948",
     "branch": "1.0"
   },
   "chipper": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "18e0775118d92c7cbfe66a19907a66d8b9e0b39c",
+    "sha": "70f0dd717985be9f02c9143d80905fdde732654e",
     "branch": "HEAD"
   },
   "kite": {
