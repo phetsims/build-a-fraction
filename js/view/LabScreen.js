@@ -11,7 +11,6 @@ import BuildingLabModel from '../../../fractions-common/js/lab/model/BuildingLab
 import BuildingLabScreenView from '../../../fractions-common/js/lab/view/BuildingLabScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import buildAFraction from '../buildAFraction.js';
 import BuildAFractionStrings from '../BuildAFractionStrings.js';
 
 class LabScreen extends Screen {
@@ -31,5 +30,4 @@ class LabScreen extends Screen {
   }
 }
 
-buildAFraction.register( 'LabScreen', LabScreen );
 export default LabScreen;

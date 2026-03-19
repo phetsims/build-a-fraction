@@ -11,7 +11,6 @@ import BuildingGameModel from '../../../fractions-common/js/game/model/BuildingG
 import BuildingGameScreenView from '../../../fractions-common/js/game/view/BuildingGameScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import buildAFraction from '../buildAFraction.js';
 import BuildAFractionStrings from '../BuildAFractionStrings.js';
 
 class BuildAFractionScreen extends Screen {
@@ -31,5 +30,4 @@ class BuildAFractionScreen extends Screen {
   }
 }
 
-buildAFraction.register( 'BuildAFractionScreen', BuildAFractionScreen );
 export default BuildAFractionScreen;
