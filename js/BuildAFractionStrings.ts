@@ -28,4 +28,6 @@ type StringsType = {
 
 const BuildAFractionStrings = getStringModule( 'BUILD_A_FRACTION' ) as StringsType;
 
+buildAFraction.register( 'BuildAFractionStrings', BuildAFractionStrings );
+
 export default BuildAFractionStrings;
